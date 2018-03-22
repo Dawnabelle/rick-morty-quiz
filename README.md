@@ -1,4 +1,4 @@
-# Which character are you?
+# Are you a Rick or a Morty?
 **jQuery Challenge for Epicodus 03.22.2018**
 
 ## By Bobby Martin and Dawn Mott

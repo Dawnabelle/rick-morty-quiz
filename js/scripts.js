@@ -9,11 +9,11 @@ $(document).ready(function() {
       $("#morty").show();
     } else if (interest === "skiing" && stress === "breakdown" && transport === "spaceShip" && color === "green") {
       $("#jerry").show();
-    } else if (stress === "ok" && transport === "spaceship" && color === "green") {
+    } else if (color === "white") {
       $("#summer").show();
     } else if (color === "green" && interest === "world-domination") {
       $("#pickleRick").show();
-    } else if (interest === "world-domination" && color === "blue" && stress === "great") {
+    } else if (interest === "world-domination" && color === "blue" || stress === "great") {
       $("#rick").show();
     } else {
       $("#poopy").show();
