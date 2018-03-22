@@ -1,4 +1,4 @@
-#rick, #morty, #pickleRick, #poopy, #summer, #jerry {
+#rick, #morty, #pickleRick, #poopy, #summer, #jerry, .back {
   display: none;
 }
 
@@ -8,6 +8,17 @@ body {
   background-size: 110%;
   color: white;
   height: 100vh;
+}
+
+p {
+  background-color: rgba(250, 250, 210, .8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -22,14 +33,22 @@ body {
   display: flex;
   flex-direction: column;
   background: url('../img/head.png');
-  background-position: cover;
-  background-size: 160%;
+  background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px #222;
+}
+
+.survey-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .btn-primary {
   background: url('../img/world.jpg');
   color: black;
+  background-size: cover;
   margin-top: 20px;
 }
 

@@ -21,7 +21,14 @@ $(document).ready(function() {
     $("button.btn").click(function() {
       $(".character-result").hide();
     });
-    $(".survey").remove();
+    $(".survey").detach();
+    $(".back").show();
+    $(".back").click(function() {
+      location.reload(true);
+      // $(".survey").append();
+      // $(".survey").show();
+      // $("#result").detach();
+    })
   event.preventDefault();
   });
 
