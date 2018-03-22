@@ -21,20 +21,7 @@ $(document).ready(function() {
     $("button.btn").click(function() {
       $(".character-result").hide();
     });
-
-    // if(interest === "baking" || interest === "skiing" && color === "yellow" && stress === "ok" ) {
-    //   $("#r2").show();
-    // } else if (interest === "world-domination" || interest === "skiing" && color === "green" && transport === "portal") {
-    //   $("#r1").show();
-    // } else if (interest === "world-domination" || interest === "baking" && color === "purple" && transport === "portal") {
-    //   $("#r3").show();
-    // } else if (interest === "world-domination" && transport === "spaceship" && stressTest ===  "ok") {
-    //   $("#r5").show();
-    // } else if (interest === "skiing" && transport === "idk" || transport === "spaceship" && stressTest === "breakdown")
-    //   $("#r6").show();
-    // } else {
-    //   $("#r4").show();
-    // }
+    $(".survey").remove();
   event.preventDefault();
   });
 

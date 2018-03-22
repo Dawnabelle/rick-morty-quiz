@@ -1,3 +1,39 @@
 #rick, #morty, #pickleRick, #poopy, #summer, #jerry {
   display: none;
 }
+
+body {
+  background: url('../img/bg.jpg');
+  background-position: cover;
+  background-size: 110%;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  background: url('../img/head.png');
+  background-position: cover;
+  background-size: 160%;
+  background-repeat: no-repeat;
+}
+
+.btn-primary {
+  background: url('../img/world.jpg');
+  color: black;
+  margin-top: 20px;
+}
+
+.form-control {
+  border-color: #444720;
+  background-color: rgb(209,213,163);
+}
