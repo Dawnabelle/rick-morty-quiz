@@ -38,7 +38,19 @@ img {
   border-radius: 8px;
   box-shadow: 0 8px 20px #222;
 }
-
+#result {
+  position: relative;
+}
+.back {
+  position: absolute;
+  z-index: 1;
+  width: 140px;
+  right: 0;
+  top: 10px;
+}
+.back img {
+  width: 100%;
+}
 .survey-card {
   display: flex;
   align-items: center;
